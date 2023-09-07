@@ -172,8 +172,6 @@ int main() {
 	cout << "I'm really sorry for what you're about to see, there's not much I can do about this mess now though. \n";
     	cout << "Good luck. And press enter to continue if you ever think you're stuck.\n";
 	cin.ignore();
-//    	for(int i = 0; i < 11; i++){cout << whole_set[i] << endl;}
-//	cin.ignore();
     	titlescreen();
     	srand(time(nullptr));
     	gameloop();
